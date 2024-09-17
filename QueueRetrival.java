@@ -14,6 +14,5 @@ public class QueueRetrival {
 
         System.out.println("After retriving" + queue);
 
-
     }
 }
