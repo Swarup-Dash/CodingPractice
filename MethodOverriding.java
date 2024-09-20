@@ -1,3 +1,4 @@
+// Without inheritance we can not acheive method overloading.
 class A {
     public void name() {
         System.out.println("My name is Swarup");

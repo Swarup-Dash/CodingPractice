@@ -9,8 +9,8 @@ class Solution:
                 start+=1
        
         return arr
- 
+
 obj = Solution()
-arr = [4,4,6,6,8]
+arr = [4,4,6,6,8] 
 res = obj.removeDuplicate(arr)
 print(res)
