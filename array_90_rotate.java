@@ -11,7 +11,7 @@ public class array_90_rotate {
             }
         }
         
-        // Reverse each row
+        // Reverse each row  
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n / 2; j++) {
                 int temp = matrix[i][j];
