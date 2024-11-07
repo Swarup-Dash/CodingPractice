@@ -21,5 +21,6 @@ public class ArrayInput {
             }
             System.out.println();
         }
+        sc.close();
     }
 }
