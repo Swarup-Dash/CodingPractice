@@ -1,20 +1,25 @@
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-
 public class CountNumberBy0Burder {
-    public static void main(String[] args) {
-        int[] nums = {1,1,2,3,3,4,2,0,4,0,5,6,5,0,0,7,6,7};
-        HashMap<Integer, Integer> count = new LinkedHashMap<Integer, Integer>();
-        for(int i=0;i<nums.length;i++){
-            for(int j=i;j<nums.length;j++){
-                if(nums[i]==nums[j]){
-                    count[nums[i]]++;
-                }
-                if(nums[j]==0){
-                    j++;
-                }
-            }  
+    public static int friendPair(int arr[]){
+        if(arr.length==0){
+            return -1;
         }
-        System.out.println(count);
+        int count=0;
+        for (int i = 0; i < arr.length-1; i++) {
+            for(int j=i+1;j<arr.length;j++){
+                if(arr[j]==0){
+                    break;
+                }
+                if(arr[i]==arr[j]){
+                    count++;
+                }
+            }   
+        }
+        return count;
     }
+    public static void main(String[] args) {
+        int arr[]={1,1,2,3,3,2,0,5,6,0,6,7,7,0,3,4,0,5,3,0,2,9,4,0,4};
+
+        System.out.println(friendPair(arr)+ " " + "Pairs");
+    }
+
 }
