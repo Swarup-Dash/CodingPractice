@@ -15,7 +15,7 @@ class Dog extends Animal{
 
 public class AbstractJava{
     public static void main(String[] args) {
-        Dog obj = new Dog();
+        Animal obj = new Dog(); // We can also write Dog obj = new Dog();
 
         obj.makeSound();
         obj.sleep();
