@@ -10,14 +10,13 @@ public class rotateString {
 
         for(int i=0; i < s.length(); i++){
             String rotated = s.substring(i) + s.substring(0, i);
-
             // Use .equals() to compare strings by content
             if (rotated.equals(goal)) {
                 System.out.println(true);
                 return; // Exit as we found a match
             }
         }
-
+        
         System.out.println(false);
         
         
