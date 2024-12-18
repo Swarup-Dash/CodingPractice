@@ -13,6 +13,8 @@ public class ArrayDuplicate{
             }
 
         }
+
+        //--------Another way
         // HashSet<Integer> duplicate = new HashSet<>();
         // for(int ele: arr){
         //     if(!duplicate.add(ele)){
