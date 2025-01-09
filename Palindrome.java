@@ -1,6 +1,6 @@
 public class Palindrome {
     public static void main(String[] args) {
-        int[] arr = {1,2,5,5,1};
+        int[] arr = {1,2,5,4,1};
         boolean isPalindrome = palindrome(arr);
         if(isPalindrome){
             System.out.println("Palindrome");
@@ -8,11 +8,10 @@ public class Palindrome {
         else{
             System.out.println("Not Palindrome");
         }
-        
     }
     public static boolean palindrome(int[] arr){
-        int left = arr[0];
-        int right = arr[arr.length-1];
+        int left = 0;
+        int right = arr.length-1;
 
         while(left<right){
             if(arr[left]!=arr[right]){
