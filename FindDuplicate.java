@@ -32,3 +32,49 @@ public class FindDuplicate {
         }
     }
 }
+
+
+
+// import java.util.HashSet;
+// import java.util.ArrayList;
+// import java.util.List;
+
+// public class FindDuplicates {
+
+//     public static int[] findDuplicates(int[] nums) {
+//         // Set to store unique elements
+//         HashSet<Integer> set = new HashSet<>();
+//         // List to store the elements with duplicates
+//         List<Integer> duplicates = new ArrayList<>();
+
+//         for (int num : nums) {
+//             // If the number is already in the set, add it to duplicates
+//             if (!set.add(num)) {
+//                 duplicates.add(num);
+//             }
+//         }
+
+//         // Convert the list of duplicates to an array
+//         int[] result = new int[duplicates.size()];
+//         for (int i = 0; i < duplicates.size(); i++) {
+//             result[i] = duplicates.get(i);
+//         }
+
+//         return result;
+//     }
+
+//     public static void main(String[] args) {
+//         int[] input = {0, 1, 1, 2, 3, 6, 9, 9};
+//         int[] duplicates = findDuplicates(input);
+
+//         // Print the duplicates
+//         if (duplicates.length > 0) {
+//             System.out.print("Duplicates: ");
+//             for (int num : duplicates) {
+//                 System.out.print(num + " ");
+//             }
+//         } else {
+//             System.out.println("No duplicates found.");
+//         }
+//     }
+// }
