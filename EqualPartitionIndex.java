@@ -22,6 +22,7 @@ public class EqualPartitionIndex {
         }
         if(!found){
             System.out.println("Not Found");
+            System.out.println("Not Found.....");
         }
     }
 }
