@@ -1,6 +1,6 @@
 public class FindSubArray{
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3};
+        int[] arr = {1, 2, 3, 4, 5};
         findSubarray(arr);
     }
     public static void findSubarray(int[] arr){

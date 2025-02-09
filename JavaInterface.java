@@ -8,7 +8,7 @@ class Dog implements Animal{
     public void eat(){
         System.out.println("I eat flesh");
     }
-
+ 
     @Override
     public void sleep(){
         System.out.println("I sleep in day");
@@ -18,12 +18,12 @@ class Dog implements Animal{
 class Cat implements Animal{
     @Override
     public void eat(){
-        System.out.println("I eat fish");
+        System.out.println("I eat fish....");
     }
 
     @Override
     public void sleep(){
-        System.out.println("I sleep in Night");
+        System.out.println("I sleep in Night....");
     }
 }
 
