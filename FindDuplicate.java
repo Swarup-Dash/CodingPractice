@@ -68,7 +68,7 @@ public class FindDuplicate {
 //         int[] duplicates = findDuplicates(input);
 
 //         // Print the duplicates
-//         if (duplicates.length > 0) {
+//         if(duplicates.length > 0) {
 //             System.out.print("Duplicates: ");
 //             for (int num : duplicates) {
 //                 System.out.print(num + " ");
