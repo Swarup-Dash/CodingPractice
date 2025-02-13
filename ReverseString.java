@@ -3,8 +3,8 @@ public class ReverseString {
         String s = "This is a string";
         char[] ch = s.toCharArray();
         String res = "";
-        int n = ch.length-1;
-        for(int i=n; i>=0; i++){
+        int n = ch.length;
+        for(int i=n-1; i>=0; i--){
             res+=ch[i];
         }
         System.out.println(res);
