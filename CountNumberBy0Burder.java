@@ -9,7 +9,7 @@ public class CountNumberBy0Burder {
                 if(arr[j]==0){
                     break;
                 }
-                if(arr[i]==arr[j]){
+                else{
                     count++;
                 }
             }   
