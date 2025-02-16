@@ -1,8 +1,9 @@
 //A HashSet is a collection of items where every item is unique, and it is found in the java.util package.
 
 import java.util.HashSet;
+import java.util.Set;
 
-public class Hashset {
+public class Hashset implements Set<String> {
     public static void main(String[] args) {
         
         HashSet<String> myHashSet = new HashSet<String>();
