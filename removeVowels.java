@@ -8,6 +8,6 @@ public class removeVowels {
             res+=c;
         }
        }
-       System.out.println(res); 
+       System.out.println(res);
     }
 }
