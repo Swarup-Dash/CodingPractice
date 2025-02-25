@@ -11,7 +11,7 @@ public class strCount{
                 res.put(c, res.getOrDefault(c, 0)+1);   
             }
         }
-         
+          
         System.out.println(res);
     }
 }
